@@ -1,6 +1,6 @@
 from get_data import get_login_data, get_register_data
 from account import register, login
-from queez import exam
+from quiz import exam
 from users import (
     get_users, show_user_info,
     get_user_by_username,

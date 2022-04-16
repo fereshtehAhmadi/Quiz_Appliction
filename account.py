@@ -18,7 +18,7 @@ def login(username, password):
 
     if not users.get(username):
         print(termcolor2.colored(f'"{username}" does not exist!', color="red"))
-        return None
+        return False
 
     user_password = bytes(users.get(username).get('password'), 'utf-8')
 
@@ -27,5 +27,5 @@ def login(username, password):
             print(termcolor2.colored(f'\n{username} Logged in successfully. ', color="green"))
             return True
 
-        print(termcolor2.colored('Invalid credentials. ', color="red"))
+    print(termcolor2.colored('Invalid credentials. ', color="red"))
         
