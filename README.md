@@ -22,7 +22,11 @@ $ pip install -r requirments.txt
 
 # How does this project work?
 This code is for performing a random test between users...
+
 Users first register and then log in with their username.
+
 User login time is saved in a file.
+
 Their information is stored in a file and they have access to their full profile and other users' usernames.
+
 After the test, its scores are stored in a file.
