@@ -13,7 +13,7 @@ This is a python based quiz application; every user is able to register and logi
 |validate-email     |  1.3  |
 
 
-# How to install and run project?
+# How to install?
 1.Go into virtual environment and run the command in below:
 
 ```
